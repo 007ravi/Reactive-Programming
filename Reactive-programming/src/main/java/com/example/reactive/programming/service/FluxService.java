@@ -46,6 +46,8 @@ public class FluxService {
         return getFLuxNames().filter(name->name.length()>4).log();
     }
 
+    
+
 
     //transform Example
     public Flux transformExample(){
